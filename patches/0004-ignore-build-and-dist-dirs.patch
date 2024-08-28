@@ -1,0 +1,21 @@
+From 20819214c18d08400fd23f47b595b9f7ec9579a2 Mon Sep 17 00:00:00 2001
+From: AdarshGrewal <adarshgrewal@gmail.com>
+Date: Tue, 23 Apr 2024 17:13:01 +0530
+Subject: [PATCH 4/5] ignore build and dist dirs
+
+---
+ .gitignore | 2 ++
+ 1 file changed, 2 insertions(+)
+ create mode 100644 .gitignore
+
+diff --git a/.gitignore b/.gitignore
+new file mode 100644
+index 00000000..c0f64a83
+--- /dev/null
++++ b/.gitignore
+@@ -0,0 +1,2 @@
++dist/
++build/
+-- 
+2.43.0
+
