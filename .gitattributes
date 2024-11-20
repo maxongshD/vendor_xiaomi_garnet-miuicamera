@@ -1,0 +1,1 @@
+common/proprietary/system/priv-app/MiuiCamera/MiuiCamera.apk filter=lfs diff=lfs merge=lfs -text
